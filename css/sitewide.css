@@ -1,0 +1,172 @@
+/* ------------------------------------------------------------ */
+/* imports and utilities */
+
+/* 3rd-party CSS files */
+@import 'vendor/h5bp-head.css';
+@import 'vendor/normalize.css';
+@import 'vendor/h5bp-tail.css';
+
+/* use a more intuitive box sizing model (http://is.gd/wNVjAo) */
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+/* Scale down images and embedded videos so they don't overflow their parents */
+img, object { max-width: 100%; }
+
+/*	Development/layout aid. Remove the comments
+	on this rule in order to draw boxes around DIVs
+	and other elements used for layout. */
+/* 
+div, main, article, section, aside, hgroup, header, footer, address, nav {
+	border: 1px solid rgba(255,0,0,0.15) !important;
+	background: rgba(255,0,0,0.05) !important;		
+}
+*/
+
+
+/* ------------------------------------------------------------ */
+/* start project-specifc styles below this line */
+
+body {
+	font-family: 'Raleway', sans-serif;
+	font-size: 12px;
+	line-height: 1.5em;
+	color: white;
+	background-color: black;
+}
+
+/*	Generally, you will only want one container element in
+	the document, wrapping around the main content area. 
+	If you have more than one container, you are probably doing
+	something wrong. 	
+*/
+.container {
+	margin-top: 1em;
+	margin-right: auto;
+	margin-bottom: 1em;
+	margin-left: auto;
+	width: 90%;
+	max-width: 1200px;
+	padding: 2em;
+	border: 5px solid #eee;
+}
+
+
+
+em{
+	font-style:normal;
+	font-weight: bold;
+}
+
+strong{
+	font-style: italic;
+	font-weight: bold;
+	font-size: 24px;
+	
+}
+
+h3{
+	font-family: 'Anton', sans-serif;
+	font-size: 18pt;
+}
+
+h5{
+	font-family: 'Anton', sans-serif;
+	font-size: 18pt;
+}
+
+h6{
+	font-family: 'Raleway', sans-serif;
+	font-size: 12pt;
+}
+
+h1{
+	font-family: 'Anton', sans-serif;
+	font-size: 20pt}
+
+h2{
+	font-family: 'Raleway', sans-serif;
+	font-size: 12pt}
+
+p {
+	font-family: 'Raleway', sans-serif;
+	font-size: 12pt;
+	color: white;
+
+}
+
+br {
+	font-family: 'Raleway', sans-serif;
+}
+html{
+	color: black;
+}
+
+.topnav {
+	font-style: none;
+	font-size: 12pt;
+	font-family: 'Anton', sans-serif;
+	color: white;
+	font-style: none;
+}
+
+.button {
+	font-style: none;
+	font-family: 'Anton', sans-serif;
+	color: white;
+	font-size: 18pt;
+}
+
+img {
+	width: 150px;
+	height: 150px;
+}
+
+.cover
+{
+	width:1000px;
+	height: 500px;
+}
+.adobe{
+
+	width: 70px;
+	height: 80px;
+	padding-right: 10px;
+}
+.wix{
+
+	width: 120px;
+	height: 30px;
+	padding-right: 10px;
+}
+.insta{
+
+	width: 100px;
+	height: 100px;
+}
+
+.facebook{
+
+	width: 100px;
+	height: 100px;
+}
+
+.unsplash{
+
+	width: 100px;
+	height: 100px;
+	color: white;
+
+}
+
+.google{
+
+	width: 100px;
+	height: 100px;
+	padding-right: 10px;
+}
+
+.micro {
+	width: 500px;
+	height: 50px;
+	padding-right: 10px;
+}
